@@ -1,8 +1,10 @@
 import java.text.MessageFormat;
 import java.util.Scanner;
 
-public class question5 {
-    static String SPAM_TEMPLATE = "Dearest {0}\n" +
+public class question5 extends solution {
+    question5(){}
+
+    private static String SPAM_TEMPLATE = "Dearest {0}\n" +
             "It is with a heavy heart that I inform you of the death of my father,\n" +
             "General Fayk {1}, your long lost relative from Mapsfostol.\n" +
             "My father left the sum of {2} USD for us, your distant cousins.\n" +
@@ -13,7 +15,7 @@ public class question5 {
             "Yours sincerely\n" +
             "Arnrial {1}";
 
-    public static void run(){
+    public void run(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter full name");
         String fullName = scanner.nextLine();

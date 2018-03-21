@@ -1,10 +1,12 @@
-public class question1 {
+public class question1 extends solution{
 
-    static int x = 760;
-    static int y = 3000;
-    static int z, hours, minutes, seconds, remainder;
+    question1(){}
 
-    public static void run(){
+    private static int x = 760;
+    private static int y = 3000;
+    private static int z, hours, minutes, seconds, remainder;
+
+    public void run(){
         z = x + y;
         hours = z/3600;
         remainder = z % 3600;

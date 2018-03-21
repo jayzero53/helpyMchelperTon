@@ -1,9 +1,10 @@
 import java.util.Scanner;
 
-public class question4 {
+public class question4 extends solution {
 
+    question4(){}
 
-    public static void run(){
+    public void run(){
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter width 1:");

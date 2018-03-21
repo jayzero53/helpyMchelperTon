@@ -1,7 +1,8 @@
-public class question2 {
+public class question2 extends solution{
 
+    question2(){}
 
-    public static void run(){
+    public void run(){
         int a = 5;
         int b = 10;
         int c = 15;
